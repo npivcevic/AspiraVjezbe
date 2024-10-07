@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramiranjeUDotNetuOOPVjezba1", "ProgramiranjeUDotNetuOOPVjezba1\ProgramiranjeUDotNetuOOPVjezba1.csproj", "{C9D662DD-8586-4578-BF3D-FACEC7415196}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgramiranjeUDotNetuOOPVjezba1", "ProgramiranjeUDotNetuOOPVjezba1\ProgramiranjeUDotNetuOOPVjezba1.csproj", "{C9D662DD-8586-4578-BF3D-FACEC7415196}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramiranjeUDotNetuOOPVjezba2", "ProgramiranjeUDotNetuOOPVjezba2\ProgramiranjeUDotNetuOOPVjezba2.csproj", "{1884CD6B-AF05-416E-8BC1-04916776A30D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgramiranjeUDotNetuOOPVjezba2", "ProgramiranjeUDotNetuOOPVjezba2\ProgramiranjeUDotNetuOOPVjezba2.csproj", "{1884CD6B-AF05-416E-8BC1-04916776A30D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramiranjeUDotNetuOOPVjezba3", "ProgramiranjeUDotNetuOOPVjezba3\ProgramiranjeUDotNetuOOPVjezba3.csproj", "{63088238-A357-4DD4-A65A-2B38E70B6DF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1884CD6B-AF05-416E-8BC1-04916776A30D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1884CD6B-AF05-416E-8BC1-04916776A30D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1884CD6B-AF05-416E-8BC1-04916776A30D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63088238-A357-4DD4-A65A-2B38E70B6DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63088238-A357-4DD4-A65A-2B38E70B6DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63088238-A357-4DD4-A65A-2B38E70B6DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63088238-A357-4DD4-A65A-2B38E70B6DF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
