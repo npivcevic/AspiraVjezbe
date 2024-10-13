@@ -14,13 +14,13 @@ namespace ProgramiranjeUDotNetuOOPVjezba4
 
         public override void Drive()
         {
-            FuelLevel--;
             if (FuelLevel <= 0)
             {
                 Console.WriteLine($"Car {Brand} is out of fuel.");
                 return;
             }
 
+            FuelLevel--;
             base.Drive();
         }
 

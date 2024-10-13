@@ -19,7 +19,7 @@ namespace ProgramiranjeUDotNetuOOPVjezba2
         {
             foreach (Book book in BookList)
             {
-                Console.WriteLine($"Naslov: {book.Title}");
+                Console.WriteLine($"Title: {book.Title}");
             }
         }
 
