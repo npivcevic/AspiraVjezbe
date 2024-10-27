@@ -27,9 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Async-01", "Async-01\Async-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Async-02", "Async-02\Async-02.csproj", "{E6B14DDA-B359-4564-9204-A69E49E1D9BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods-01", "ExtensionMethods-01\ExtensionMethods-01.csproj", "{13CE869D-B53E-49A2-8509-7939F330A1F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethods-01", "ExtensionMethods-01\ExtensionMethods-01.csproj", "{13CE869D-B53E-49A2-8509-7939F330A1F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods-02", "ExtensionMethods-02\ExtensionMethods-02.csproj", "{133C468C-81BA-46A4-B819-3D394FC3D710}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethods-02", "ExtensionMethods-02\ExtensionMethods-02.csproj", "{133C468C-81BA-46A4-B819-3D394FC3D710}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ-01", "LINQ-01\LINQ-01.csproj", "{54C1BA73-D789-4D12-A098-D5BD279DF718}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{133C468C-81BA-46A4-B819-3D394FC3D710}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{133C468C-81BA-46A4-B819-3D394FC3D710}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{133C468C-81BA-46A4-B819-3D394FC3D710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54C1BA73-D789-4D12-A098-D5BD279DF718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C1BA73-D789-4D12-A098-D5BD279DF718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C1BA73-D789-4D12-A098-D5BD279DF718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C1BA73-D789-4D12-A098-D5BD279DF718}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
