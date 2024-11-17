@@ -1,0 +1,48 @@
+﻿@WebAPI_01_HostAddress = https://localhost:7095
+
+###
+
+GET {{WebAPI_01_HostAddress}}/api/movies
+
+###
+
+GET {{WebAPI_01_HostAddress}}/api/Movies/1
+
+###
+
+POST {{WebAPI_01_HostAddress}}/api/Movies
+Content-Type: application/json
+
+{
+  "Id": 1,
+  "Title": "Ironman",
+  "Year": 2015
+}
+
+###
+
+POST {{WebAPI_01_HostAddress}}/api/Movies
+Content-Type: application/json
+
+{
+  "Id": 2,
+  "Title": "Spiderman",
+  "Year": 2018
+}
+
+###
+
+PUT {{WebAPI_01_HostAddress}}/api/Movies/1
+Content-Type: application/json
+
+{
+  "Id": 1,
+  "Title": "Ironman",
+  "Year": 2020
+}
+
+###
+
+DELETE {{WebAPI_01_HostAddress}}/api/Movies/1
+
+###
