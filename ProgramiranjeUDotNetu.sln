@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI-02", "WebAPI-02\WebA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DI-01", "DI-01\DI-01.csproj", "{9554027B-D6C2-4945-973E-CEAD7E791FA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO-01", "DTO-01\DTO-01.csproj", "{20BFBFFE-3879-4FC0-94B3-FA7378A1AEF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTO-01", "DTO-01\DTO-01.csproj", "{20BFBFFE-3879-4FC0-94B3-FA7378A1AEF4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPIAuth-Basic", "WebAPIAuth-Basic\WebAPIAuth-Basic.csproj", "{82E41E16-4558-454E-826D-510101722545}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{20BFBFFE-3879-4FC0-94B3-FA7378A1AEF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20BFBFFE-3879-4FC0-94B3-FA7378A1AEF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20BFBFFE-3879-4FC0-94B3-FA7378A1AEF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82E41E16-4558-454E-826D-510101722545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E41E16-4558-454E-826D-510101722545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E41E16-4558-454E-826D-510101722545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E41E16-4558-454E-826D-510101722545}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
