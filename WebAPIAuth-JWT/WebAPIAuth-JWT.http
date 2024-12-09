@@ -1,0 +1,38 @@
+@HostAddress = https://localhost:7207
+@AccessToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZW1haWxhZGRyZXNzIjoiam9obkBleGFtcGxlLmNvbSIsImV4cCI6MTczMzc1MTMzNSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzIwNyIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjcyMDcifQ.ocQ8u-CczB2bLtf9QFtBoLY1iROOtzsMtGJP9SCwHgs
+@RefreshToken = fdE0oFecxUDf3lVB8d8oLzvyv/ix+aeZq2vAqRXlASA=
+
+GET {{HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{HostAddress}}/api/auth/refreshToken
+Content-Type: application/json
+Authorization: Bearer {{AccessToken}}
+
+{
+  "RefreshToken": "{{RefreshToken}}"
+}
+
+###
+
+POST {{HostAddress}}/api/auth/login
+Content-Type: application/json
+
+{
+  "Email": "john@example.com",
+  "password": "abcd"
+}
+
+###
+
+POST {{HostAddress}}/api/auth/logout
+Content-Type: application/json
+Authorization: Bearer {{AccessToken}}
+
+{
+
+}
+
+###
